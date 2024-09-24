@@ -2,28 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Interface</title>
     <link rel="stylesheet" href="./../static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GPT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div class="chat-container">
-        <div class="chat-header">
-            <h3>Chat Interface</h3>
-        </div>
-
-        <div class="chat-box" id="chat-box">
-            <!-- Messages will appear here -->
-        </div>
-
-        <div class="chat-input">
-            <input type="text" id="chat-message" placeholder="Type a message..." />
-            <button id="send-btn">Send</button>
-        </div>
+    <h1>Welcome to MyGPT</h1>
+    <h2>Your Local GPT using Ollama.</h2>
+    <div class="chatbox">
+        <input type="text" placeholder="Please enter your question..."></input>
     </div>
-
-    <script src="./../static/script.js"></script>
-
+    <div class="chatbox"><input type="button" value="Chat" ></div>
+    
 </body>
 </html>
