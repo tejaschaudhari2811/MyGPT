@@ -13,6 +13,7 @@ h1 {
     font-family: poppins;
     font-size: 40px;
     text-align: center;   
+    border: 2px solid red;
 }
 
 h2 {
@@ -41,5 +42,9 @@ input {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+input :only-of-type(button){
+    background-color:black;
 }
 

@@ -1,9 +1,29 @@
-div p:first-child{
-    background-color: red;
-    color: yellow;
+body{
+    background-image: url("bg.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
-div > p{
-    color: red;
-    background-color: yellow;
+div{
+    position: relative;
+    height: auto;
+}
+
+.navbar{ 
+    background-color: red;
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+}
+.redeem{
+    color: white;
+    display: flex;
+    border: 2px solid red;
+    text-decoration: none ;
+    font-size: 15px;
+    width: fit-content;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
 }
